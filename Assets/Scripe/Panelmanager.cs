@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UImanager : MonoBehaviour
+public class Panelmanager : MonoBehaviour
 {
     // Start is called before the first frame update
+    public GameObject[] panels;
     void Start()
     {
         
