@@ -7,7 +7,6 @@ public class GameUimanager : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject DayUi;
-
     private int day;
     void Start()
     {
