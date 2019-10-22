@@ -5,7 +5,7 @@ using UnityEngine;
 public class Panelmanager : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject[] panels; //0:开始界面 1:游戏界面1 2:邮箱界面
+    public GameObject[] panels; //0:开始界面 1:游戏界面1 2:邮箱界面 3：学生界面
     public Button_start button_start;
     public Button_mail button_mail;
     void Start()
