@@ -4,14 +4,13 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
-public class Button_start : MonoBehaviour, IPointerClickHandler
+public class Button_student : MonoBehaviour, IPointerClickHandler
 {
-    // Start is called before the first frame update
     public UnityEvent Clickevnet;
-
+    // Start is called before the first frame update
+    // Update is called once per frame
     public void OnPointerClick(PointerEventData eventData)
     {
         Clickevnet.Invoke();
-    
     }
 }

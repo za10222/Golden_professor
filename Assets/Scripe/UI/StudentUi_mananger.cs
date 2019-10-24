@@ -18,6 +18,7 @@ public class StudentUi_mananger : MonoBehaviour
         for (int i = 0; i < 5; i++)//要从panelmanager里获得学生对象
         {
             StudentUi_card_list.Add(Instantiate(myobject, transform.Find("Studentlist").Find("Grid")));
+          
         }
        
     }
