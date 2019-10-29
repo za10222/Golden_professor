@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 6784004578447037737}
   - component: {fileID: 7713252361271652264}
   m_Layer: 5
-  m_Name: Text_Stuentname
+  m_Name: Text_Studentname
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -316,6 +316,7 @@ GameObject:
   - component: {fileID: 7077445873597138562}
   - component: {fileID: 7077445873597138563}
   - component: {fileID: 256582455476106372}
+  - component: {fileID: 5390288797367495820}
   m_Layer: 5
   m_Name: Student_Card
   m_TagString: Untagged
@@ -393,6 +394,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b56fa64bd3ac0b340be34a7079a2c8a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clickevnet:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &5390288797367495820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7077445873597138566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cb5e6c3e0ec62640b9aea91b69d5877, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &527464841479923694

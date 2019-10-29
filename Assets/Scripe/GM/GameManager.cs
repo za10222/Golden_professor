@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static Manager mymanager;
-     void Start()
+     void Awake()
     {
 
         Application.targetFrameRate = 30 ;
@@ -13,6 +13,8 @@ public class GameManager : MonoBehaviour
         {
             mymanager = new Manager();                  
             mymanager.students.Add(new Student("qingzheng", "长得很胖\n爱吃饭", 34, 100, 0.2, new Idle()));
+            mymanager.students.Add(new Student("sb", "长得很瘦\n不爱吃饭", 34, 100, 0.2, new Idle()));
+
             mymanager.tasks.Add(new Task("超级水刊", 0.1, 100));
         }
     }
@@ -138,6 +140,13 @@ public class Student
         this.growth = growth;
         this.state = state;
     }
+
+    public string Name { get => name; set => name = value; }
+    public string Description { get => description; set => description = value; }
+    public int Ability { get => ability; set => ability = value; }
+    public int Mood { get => mood; set => mood = value; }
+    public double Growth { get => growth; set => growth = value; }
+    public State State { get => state; set => state = value; }
 
     public int getid()
     {
