@@ -5,7 +5,7 @@ using UnityEngine;
 public class Student_information : MonoBehaviour
 {
     // Start is called before the first frame update
-    public Student mystudent;
+    //public Student mystudent;
     private void OnEnable()
     {
         //if (mystudent == null)
@@ -19,8 +19,4 @@ public class Student_information : MonoBehaviour
     {
         
     }
-}
-
-public class Student
-{
 }
