@@ -16,8 +16,8 @@ public class StudentUi_mananger : MonoBehaviour
         foreach(Student s in GameManager.mymanager.students)
         {
             var temp=Instantiate(myobject, transform.Find("Studentlist").transform.Find("Grid"));
-            Debug.Log("CCC:"+ s.getid());
-            temp.GetComponent<Student_card>().mystudent_id=s.getid();
+            Debug.Log("CCC:"+ s.Id);
+            temp.GetComponent<Student_card>().mystudent_id=s.Id;
             temp.SetActive(false);
             temp.SetActive(true);
             StudentUi_card_list.Add(temp);

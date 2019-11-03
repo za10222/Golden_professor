@@ -12,7 +12,7 @@ public class Student_card : MonoBehaviour
         var mystudent = GameManager.mymanager.findStudent(mystudent_id);
         Debug.Log("studentcard:"+ mystudent_id); 
         transform.Find("Text_Studentname").GetComponent<Text>().text=mystudent.Name;
-        transform.Find("Text_Status").GetComponent<Text>().text = mystudent.State.GetType().Name;
+        transform.Find("Text_Status").GetComponent<Text>().text = mystudent.state.GetType().Name;
     }
 
     // Update is called once per frame

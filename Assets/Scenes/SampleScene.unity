@@ -930,7 +930,6 @@ RectTransform:
   - {fileID: 1237833621}
   - {fileID: 810942964}
   - {fileID: 972558877}
-  - {fileID: 680023342}
   m_Father: {fileID: 390855375900931365}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1892,7 +1891,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u554A\u963F\u65AF\u987F"
+  m_Text: "\u5212\u6C34"
 --- !u!222 &545464368
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2376,12 +2375,12 @@ RectTransform:
   - {fileID: 545464366}
   - {fileID: 1222945438}
   - {fileID: 399569233}
-  m_Father: {fileID: 292865226}
-  m_RootOrder: 3
+  m_Father: {fileID: 390855375900931365}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 34.4}
+  m_AnchoredPosition: {x: 101.49997, y: -58.1}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &680023343
@@ -2432,15 +2431,28 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: "\u554A\u963F\u65AF\u987F"
+    - m_Text: "\u5212\u6C34"
       m_Image: {fileID: 0}
-    - m_Text: "\u963F\u65AF\u987F"
+    - m_Text: "\u5B66\u4E60"
       m_Image: {fileID: 0}
-    - m_Text: "\u963F\u65AF\u987F"
+    - m_Text: "\u5199\u6750\u6599"
+      m_Image: {fileID: 0}
+    - m_Text: "\u505A\u9879\u76EE"
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 0
   m_AlphaFadeSpeed: 0.15
 --- !u!114 &680023344
 MonoBehaviour:
@@ -2805,7 +2817,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &776591228
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6208,6 +6220,7 @@ RectTransform:
   - {fileID: 1437997372}
   - {fileID: 292865226}
   - {fileID: 359954425}
+  - {fileID: 680023342}
   m_Father: {fileID: 675472837}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
